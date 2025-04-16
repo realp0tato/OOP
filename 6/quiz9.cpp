@@ -19,8 +19,9 @@ int main()
 {
     string input;
     cout << "나는 배고프다를 영어 문장으로 작성하세요." << endl;
-    cin >> input;
-    kor_to_eng(input);
+    getline(cin, input);
+    kor_to_eng(input); //함수 자체만 호출시 리턴값 필요하지 않음
 
+    
     return 0;
 }
