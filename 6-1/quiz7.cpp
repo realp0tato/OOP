@@ -2,30 +2,32 @@
 #include <cstdlib>
 
 using namespace std;
-void swapswap(int &a, int &b)
-{
-    int tmp = a;
-    a = b;
-    b = tmp;
-}
+// 포인터 사용
+// void swapswap(int *a, int *b) // a=&x, b=&y
+// {
+//     // *a = &x, *b = &y 와 같은 뜻
+//     int tmp = *a;
+//     *a = *b;
+//     *b = tmp;
+// }
+// 참조변수 사용
+// void swapswap(int &a, int &b) // a=&x, b=&y
+// {
+//     // *a = &x, *b = &y 와 같은 뜻
+//     int tmp = a;
+//     a = b;
+//     b = tmp;
+// }
 
-int main()
-{
-    int a, b;
-    cin >> a >> b;
-    cout << "a = " << a << ", b = " << b << endl;
-    swapswap(a, b);
-    cout << "a = " << a << ", b = " << b << endl;
-    return 0;
-}
-
-//
 // int main()
 // {
-//     int a, b;
-//     cin >> a >> b;
-//     cout << "a = " << a << ", b = " << b << endl;
-//     swap(a, b);
-//     cout << "a = " << a << ", b = " << b << endl;
+//     int x, y;
+//     cin >> x >> y;
+//     cout << "x = " << x << ", y = " << y << endl;
+//     //swap(x, y); // 라이브러리 함수 사용
+//     //swapswap(&x, &y); // 포인터 사용
+//     //swapswap(x, y); // 참조변수 사용
+//     cout << "x = " << x << ", y = " << y << endl;
 //     return 0;
 // }
+
