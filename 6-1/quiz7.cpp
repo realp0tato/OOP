@@ -1,7 +1,15 @@
 #include <iostream>
 #include <cstdlib>
+#include <cctype>
+#include <typeinfo>
+#include <cmath>
+#include <limits>
+#include <iomanip> // cout<<setprecision
+#include <ctime> //srand(time(0))
+
 
 using namespace std;
+
 // 포인터 사용
 // void swapswap(int *a, int *b) // a=&x, b=&y
 // {
