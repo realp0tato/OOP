@@ -30,7 +30,7 @@ int main()
     //주소(배열명, 포인터 등) + 1 이렇게 하면
     //int배열이면 4바이트 옆에, double배열이면 8바이트 옆에 이렇게 해석
     // 만약 내림차순 하고 싶으면, 3번째 매개변수에 greater<타입>() 추가 
-    for(int i=0; i<count; i++)
+    for(int i=count -1; i>=0; i--) //내림차순
     {
         fout << arr[i] << endl;
     }

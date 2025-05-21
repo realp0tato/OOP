@@ -17,12 +17,13 @@ int main()
     string name;
     //double s, sum=0;
     double arr[100];
+    string arr2[100];
     int count = 0;
-    while(fin >> name >> arr[count])
+    while(fin >> arr2[count] >> arr[count])
     {
         //sum +=s;
         count++;
-
+        if(count >= 99) break;
     }
     sort(arr, arr+count); //배열 변수명은 그 배열의 시작주소 가지고 있음
     // 배열 변수명 + 정수 이렇게 계산하면, arr가 정수배열인거 아니까
