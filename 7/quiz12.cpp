@@ -5,7 +5,7 @@ using namespace std;
 class Calculator
 {
     public:
-        int add(int a, int b) { return a + b; }  // 1번 방식
+        int add(int a, int b){ return a + b; }  // 1번 방식
 };
 
 //inline int Calculator::add(int a, int b) { return a + b; } // 2번 방식
